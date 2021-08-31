@@ -122,28 +122,18 @@ public class MainActivity extends AppCompatActivity {
                 setDigito("-");
             }
         });
-        btn_clear.
 
     }
-    void setDigito(String digito){
+
+    void setDigito(String digito) {
         TextView txt_testo = (TextView) this.findViewById(R.id.txt_testo);
         String actual = txt_testo.getText().toString();
         String nuevo = actual + digito;
         txt_testo.setText(nuevo);
 
     }
-    //final Button button = (Button) findViewById(R.id.button_id);
-    //final TextView label = (Label) findViewById(R.id.label_id);
-    //button.setOnClickListener(new View.OnClickListener() {
-    //    public void onClick(View v) {
-    //        //Si quieres poner el mismo valor que el texto del botón
-    //        label.setText(v.getText());
-    //        //Si quieres agregarle al valor del texto del Label el texto del botón
-    //        // label.setText(label.getText()+v.getText());
-    //        //Si quieres ponerle un texto predeterminado "0"
-    //        // label.setText("0");
-    //        //Si quieres agregarle un texto predeterminado "0"
-    //        // label.setText(label.getText()+"0");
-    //    }
-    //});
+    
+
+
+
 }

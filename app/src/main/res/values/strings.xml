@@ -19,5 +19,5 @@
     <string name="btn_three">3</string>
     <string name="btn_equal">=</string>
     <string name="btn_clear">CE</string>
-    <string name="_0">0</string>
+    <string name="txt_testo">0</string>
 </resources>
